@@ -1,0 +1,67 @@
+.navigation {
+  background-color: white;
+  overflow: hidden;
+}
+.navlinks {
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none; 
+}
+.authorization {
+  background-color: whitesmoke;
+  border-radius: 6%;
+  box-shadow: 10px 10px 85px #0e0e0e;
+  border-style: outset;
+  text-align: center;
+  height: 500px;
+  width: 400px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+.email {
+  background-color: white;
+  margin-top: 200px; 
+  border-radius: 7px;
+  height: 30px;
+  font-family: "Comic Sans MS";
+}
+.password {
+  background-color: white;
+  margin-top: 10px; 
+  border-radius: 7px;
+  height: 30px;
+  font-family: "Comic Sans MS";
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  transform: translate(50%, -50%);
+  margin-left: 150px;
+  
+  text-align: center;
+  margin-top: 20px;
+}
+.LoginButton {
+  font-family: "Comic Sans MS";
+}
+.RegisterButton {
+  font-family: "Comic Sans MS";
+  margin-left: 13px;
+}
+.image {
+  border-radius: 1%;
+  margin-top: 20px;
+  margin-left: 40px;
+  margin-right: 40px;
+  min-height: 900px;
+  background-image: url("https://source.unsplash.com/1600x900/?nature,green");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+
